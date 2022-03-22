@@ -1,6 +1,8 @@
 package se.lexicon.sudipta;
 
 
+import java.util.Scanner;
+
 public class App {
     public static void main(String []args) {
       /*
@@ -129,13 +131,26 @@ public class App {
     String MyName="Alex";
     String MySurname="Johnson";
         System.out.println(MyName.concat(MySurname));
-    */
+
 
     int num1=10;
     int num2=20;
     int num3=15;
         System.out.println("The average of the 3 Numbers is:" + (num1+num2+num3)/3);
 
+
+//__length:
+        String text="sajhsjkjfkjfkj";
+        System.out.println("The length of the text is :"+text.length());
+
+*/
+
+        //LEAP YEAR EXERCISE:
+
+
+
     }
+
+
 
 }
