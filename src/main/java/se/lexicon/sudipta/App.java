@@ -151,8 +151,14 @@ public class App {
 
 
         Laptop laptop1 = new Laptop();
-        laptop1.name = "lenovo";
-        //....
+        laptop1.name = "lenovo curve";
+        laptop1.brand="Lenovo";
+        laptop1.color="gray";
+        laptop1.ram=128;
+
+        System.out.println(laptop1.getClass());
+
+        // Why I dint get information from the class??
 
 
 
