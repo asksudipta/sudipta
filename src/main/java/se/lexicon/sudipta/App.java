@@ -149,6 +149,13 @@ public class App {
 
 
 
+
+        Laptop laptop1 = new Laptop();
+        laptop1.name = "lenovo";
+        //....
+
+
+
     }
 
 
