@@ -16,7 +16,7 @@ public class Person {
         int k=1;
         if (k<=500);{
         k=k++;
-        break;
+    //    break;
         }
             System.out.println("Please enter your Guess Number : ");
             input = san.nextInt();
@@ -24,16 +24,16 @@ public class Person {
                 System.out.println("Yes your guess is correct and your total guess is : "+k);
 
             }
-        break;
+       // break;
         if  (input > number) {
             System.out.println("Your Guess is too big ");
 
         }
-            else (input < number) {
+         /*   else (input < number) {
 
                 System.out.println("our Guess is too small.... : ");
                 }
-
+*/
 
 
 

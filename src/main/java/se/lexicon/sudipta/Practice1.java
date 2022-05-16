@@ -3,32 +3,30 @@ package se.lexicon.sudipta;
 import java.lang.invoke.SwitchPoint;
 import java.util.Scanner;
 
-public class practice1 {
+public class Practice1 {
     public static void main(String[] args) {
 
-/*
+
     String firstName="sudipta";
     System.out.println(firstName);
 
 
-         //Scanner operation String:
+         //Scanner operation String:s
 
 
          Scanner scan=new Scanner(System.in);
          System.out.println("Enter your First Name");
-         String firstName=scan.next();
+         String firstName1=scan.next();
          System.out.println("Enter your Last Name");
          String lastName=scan.next();
          System.out.println("");
          System.out.println("Enter your age");
          int age=scan.nextInt();
-         System.out.println("Your full Name is :"+firstName+" "+lastName+" And your Age is :"+age);
+         System.out.println("Your full Name is :"+firstName1+" "+lastName+" And your Age is :"+age);
 
-*/
 
         // Scanner operation in Integer:
 
-   /*     Scanner scan = new Scanner(System.in);
         System.out.println("Enter  First number ");
         int firstNum = scan.nextInt();
         System.out.println("Enter Second Number");
@@ -58,7 +56,7 @@ public class practice1 {
         }
 
 
-*/
+
 
 
 

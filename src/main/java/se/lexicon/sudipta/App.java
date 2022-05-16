@@ -139,7 +139,7 @@ public class App {
         System.out.println("The average of the 3 Numbers is:" + (num1+num2+num3)/3);
 
 
-//__length:
+//__length :
         String text="sajhsjkjfkjfkj";
         System.out.println("The length of the text is :"+text.length());
 
@@ -149,16 +149,16 @@ public class App {
 
 
 
-
         Laptop laptop1 = new Laptop();
         laptop1.name = "lenovo curve";
         laptop1.brand="Lenovo";
         laptop1.color="gray";
         laptop1.ram=128;
 
-        System.out.println(laptop1.getClass());
+        System.out.println(laptop1);
 
         // Why I dint get information from the class??
+
 
 
 

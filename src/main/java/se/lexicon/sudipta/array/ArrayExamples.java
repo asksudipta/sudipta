@@ -1,4 +1,4 @@
-package se.lexicon.sudipta.Array;
+package se.lexicon.sudipta.array;
 
 public class ArrayExamples {
 
@@ -10,7 +10,7 @@ public class ArrayExamples {
 
         int[] numbers = {2,5,8,1,0,3};
 
-
+        System.out.println(names);
 
 
     }
@@ -34,7 +34,7 @@ public class ArrayExamples {
         public static void ex1() {
             String[] names = new String[3];
             names[0] = "Fredrik";
-            names[1] = "Erik";
+            names[1] = "Milan";
 
             System.out.println(names[0]);
             System.out.println(names[2]);
@@ -43,5 +43,10 @@ public class ArrayExamples {
             System.out.println(names.length);
 
         }
+
+
+
     }
+
+
 }

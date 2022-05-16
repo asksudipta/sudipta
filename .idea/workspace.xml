@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7004aea-4c0c-4222-847c-ff0754668365" name="Changes" comment="If condition test">
+    <list default="true" id="b7004aea-4c0c-4222-847c-ff0754668365" name="Changes" comment="Convert the character to String..">
       <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
@@ -14,8 +14,16 @@
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/sudipta/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/sudipta/array/ArrayPractice3.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/sudipta-demo-project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/sudipta/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/sudipta/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/sudipta/Array/ArrayExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/sudipta/array/ArrayExamples.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/sudipta/Exercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/sudipta/Exercise1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/sudipta/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/sudipta/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/sudipta/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/sudipta/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/sudipta/practice1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/sudipta/Practice1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,15 +69,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.Exercise1">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="se.lexicon.sudipta.App" />
+  <component name="RunManager" selected="Application.Convertion">
+    <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="se.lexicon.sudipta.array.ArrayExamples.Arrays" />
       <module name="sudipta-demo-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="se.lexicon.sudipta.*" />
+          <option name="PATTERN" value="se.lexicon.sudipta.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="se.lexicon.sudipta.Exercise1" />
+    <configuration name="Convertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="se.lexicon.sudipta.string.Convertion" />
       <module name="sudipta-demo-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="se.lexicon.sudipta.*" />
+          <option name="PATTERN" value="se.lexicon.sudipta.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +101,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exrecise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="se.lexicon.sudipta.Exrecise1" />
+    <configuration name="Lowercase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="se.lexicon.sudipta.string.Lowercase" />
       <module name="sudipta-demo-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="se.lexicon.sudipta.*" />
+          <option name="PATTERN" value="se.lexicon.sudipta.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Replacing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="se.lexicon.sudipta.string.Replacing" />
+      <module name="sudipta-demo-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.lexicon.sudipta.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="se.lexicon.sudipta.string.ToString" />
+      <module name="sudipta-demo-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.lexicon.sudipta.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Trim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="se.lexicon.sudipta.string.Trim" />
+      <module name="sudipta-demo-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.lexicon.sudipta.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,9 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exercise1" />
-        <item itemvalue="Application.Exrecise1" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.Convertion" />
+        <item itemvalue="Application.ToString" />
+        <item itemvalue="Application.Trim" />
+        <item itemvalue="Application.Replacing" />
+        <item itemvalue="Application.Lowercase" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +207,147 @@
       <option name="project" value="LOCAL" />
       <updated>1647958234885</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="If condition test">
+      <created>1648021939395</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1648021939395</updated>
+    </task>
+    <task id="LOCAL-00007" summary="insert a object">
+      <created>1648116690899</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648116690899</updated>
+    </task>
+    <task id="LOCAL-00008" summary="call the laptop class in this class">
+      <created>1648120219307</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1648120219307</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Create new class laptop in this package">
+      <created>1648120324553</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1648120324553</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Time format">
+      <created>1648158265994</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1648158265994</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Guessing concept">
+      <created>1648464552122</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1648464552122</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Guessing concept">
+      <created>1648464576317</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1648464576317</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Initialing an Array">
+      <created>1648477557387</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1648477557388</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Array string practicing">
+      <created>1648560608325</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1648560608325</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Array length and position">
+      <created>1648560771420</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1648560771420</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Working with string">
+      <created>1648630123324</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1648630123324</updated>
+    </task>
+    <task id="LOCAL-00017" summary="String length count">
+      <created>1648630889211</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1648630889211</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Index Position  checking">
+      <created>1648633834640</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1648633834642</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Index Position  checking for a letter">
+      <created>1648644797054</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1648644797054</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Execute part of string">
+      <created>1648646607527</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1648646607527</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Lowercase a Sentence">
+      <created>1648647719546</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1648647719546</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Replacing test.">
+      <created>1648650009725</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1648650009726</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Trimming the txt">
+      <created>1648652121647</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1648652121647</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Parse the intiger to string">
+      <created>1648676462613</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1648676462613</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Convert the character to String..">
+      <created>1648709189863</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1648709189863</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +365,37 @@
     <MESSAGE value="Sudipta's java code" />
     <MESSAGE value="added length functionality" />
     <MESSAGE value="If condition test" />
-    <option name="LAST_COMMIT_MESSAGE" value="If condition test" />
+    <MESSAGE value="insert a object" />
+    <MESSAGE value="call the laptop class in this class" />
+    <MESSAGE value="Create new class laptop in this package" />
+    <MESSAGE value="Time format" />
+    <MESSAGE value="Guessing concept" />
+    <MESSAGE value="Initialing an Array" />
+    <MESSAGE value="Array string practicing" />
+    <MESSAGE value="Array length and position" />
+    <MESSAGE value="Working with string" />
+    <MESSAGE value="String length count" />
+    <MESSAGE value="Index Position  checking" />
+    <MESSAGE value="Index Position  checking for a word" />
+    <MESSAGE value="Index Position  checking for a letter" />
+    <MESSAGE value="Execute part of string" />
+    <MESSAGE value="Lowercase a Sentence" />
+    <MESSAGE value="Replacing test." />
+    <MESSAGE value="Trimming the txt" />
+    <MESSAGE value="Parse the intiger to string" />
+    <MESSAGE value="Convert the character to String.." />
+    <option name="LAST_COMMIT_MESSAGE" value="Convert the character to String.." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/se/lexicon/sudipta/Practice1.java</url>
+          <line>9</line>
+          <properties field="firstName" class="se.lexicon.sudipta.practice1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
